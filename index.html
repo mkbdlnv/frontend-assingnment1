@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--HEADER PART-->
+<header>
+    <div class="container">
+        <nav class="navbar">
+            <h1 class="logo">EVENTS</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#comingEvents" class="navlink">Events</a></li>
+                <li><a href="#about" class="navlink">About us</a></li>
+                <li><a href="#" class="navlink">Sign in</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--CONTENT OF THE WEBSITE-->
+<main>
+    <img src="img/img1.jpg" alt="image of event" id="main-image">
+    <div class="container mainContent">
+        <div class="comingEvents" id="comingEvents">
+            <h2 class="headings">Coming events</h2>
+            <table class="eventsList" >
+                <tr>
+                    <th>ID</th>
+                    <th>Event name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Address</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Football match</td>
+                    <td>6.09.2023</td>
+                    <td>16:00</td>
+                    <td>Kabanbay batyr 45</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anime party</td>
+                    <td>7.09.2023</td>
+                    <td>21:00</td>
+                    <td>Kabanbay batyr 60A/6</td>
+                </tr>
+            </table>
+        </div>
+        <div class="registration">
+            <h2 class="headings">Register for event</h2>
+            <form action="" class="registrationForm">
+                <div class="formRow">
+                    <label for="eventId">Enter event id:</label><br>
+                    <input type="number" id="eventId"><br><br>
+                </div>
+                <div class="formRow">
+                    <label for="phone">Enter your phone number:</label><br>
+                    <input type="phone" id="phone"><br><br>
+                </div>
+                <div class="formRow">
+                    <label for="email">Enter your email:</label><br>
+                    <input type="email" id="email"><br><br>
+                </div>
+
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h2 class="headings">About us</h2>
+        <p class="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad blanditiis consequatur corporis cumque dignissimos dolorem error illo illum, laboriosam nisi nostrum porro quod recusandae repellendus sequi sit temporibus voluptas.</p>
+    </div>
+</main>
+
+<!--FOOTER PART-->
+<footer>
+    <div class="container footer">
+        <h2 class="headings">CONTACTS</h2>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Email</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
